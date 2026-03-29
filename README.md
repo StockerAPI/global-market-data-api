@@ -1,13 +1,18 @@
 # Global Market Data API
 
-Kun Data provides token-authenticated market data APIs across international exchanges with:
+Kun Data provides token-authenticated market data APIs across international exchanges for teams building trading products, charting tools, stock screeners, broker dashboards, market overview pages, and realtime watchlists.
+
+## What This Covers
 
 - Real-time WebSocket market data
 - Historical OHLCV and candlestick data
 - Exchange snapshot endpoints
 - Coverage for multiple countries and exchanges
+- GitHub entry points for country and market specific API discovery
 
-## Markets
+## Repository Map
+
+Each repository below targets a distinct market-intent keyword and links back to the main product page and docs.
 
 - [Argentina](https://github.com/StockerAPI/argentina-stock-market-api) - Real-time Argentina stock market API with WebSocket, OHLCV, and snapshot endpoints for BYMA.
 - [Australia](https://github.com/StockerAPI/australia-stock-market-api) - Real-time Australia stock market API with WebSocket, OHLCV, and snapshot endpoints for ASX.
@@ -37,6 +42,20 @@ Kun Data provides token-authenticated market data APIs across international exch
 - [Taiwan](https://github.com/StockerAPI/taiwan-stock-market-api) - Real-time Taiwan stock market API with WebSocket, OHLCV, and snapshot endpoints.
 - [Vietnam](https://github.com/StockerAPI/vietnam-stock-market-api) - Real-time Vietnam stock market API with WebSocket, OHLCV, and snapshot endpoints for HOSE and HNX.
 
+
+## Typical Use Cases
+
+- Realtime stock and market dashboards
+- Broker and terminal interfaces
+- Charting and OHLCV-based analytics
+- Watchlists, market movers, and overview modules
+- Internal finance or quant tooling
+
+## Why This GitHub Matrix Exists
+
+Developers rarely search for a generic market data term only once. They search for combinations such as country, exchange, realtime, WebSocket, OHLCV, candles, quote snapshot, and symbol lookup.
+
+This repository map is designed to make each market easier to discover, evaluate, and route into the live product and docs.
 
 ## Links
 
